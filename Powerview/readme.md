@@ -173,23 +173,14 @@ Downloaded 23-05-2023
 | Find-ForeignGroup | Find-yavinForeignGroupMember |
 | Invoke-MapDomainTrust | Invoke-yavinTrustMapping |
 |  |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
+
+
+## Remove Kerberoast
+
+Version: pv-noRoast.ps1
+
+Removed functions:
+| | |
+| -- | -- |
+| Get-DomainSPNTicket | Get-geonosis |
+| Invoke-Kerberoast | Invoke-mustafar |
