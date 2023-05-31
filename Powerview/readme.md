@@ -114,10 +114,82 @@ Downloaded 23-05-2023
 | Get-GPODelegation | Get-Dathomir |
 |  |  |
 
-Renamed Variables
+## Renamed Variables
 
 | Original name | Obfuscated name |
 | -- | -- |
 | PowerView | Kamino |
 
 
+## Renamed Aliases
+
+| Original name | Obfuscated name |
+| -- | -- |
+| Get-IPAddress | Get-alzar |
+| Convert-NameToSid | Convert-NameTobatuu |
+| Convert-SidToName | Convert-batuuToName |
+| Request-SPNTicket | Request-geonosis |
+| Get-DNSZone | Get-subterrel |
+| Get-DNSRecord | Get-wobani |
+| Get-NetDomain | Get-Netyavin |
+| Get-NetDomainController | Get-NetyavinController |
+| Get-NetForest | Get-Netkessel |
+| Get-NetForestDomain | Get-NetkesselDomain |
+| Get-NetForestCatalog Get-NetkesselGlobalCatalog |
+| Get-NetUser | Get-NetyavinUser |
+| Get-UserEvent | Get-yavinUserEvent |
+| Get-NetComputer | Get-NetyavinComputer |
+| Get-ADObject | Get-yavinObject |
+| Set-ADObject | Set-yavinObject |
+| Get-ObjectAcl | Get-yavinObjectAcl |
+| Add-ObjectAcl | Add-yavinObjectAcl |
+| Invoke-ACLScanner | Invoke-concordiaScanner |
+| Get-NetOU | Get-netyavinOU |
+| Get-NetSite | Get-NetyavinSite |
+| Get-NetSubnet | Get-NetyavinSubnet |
+| Get-NetGroup | Get-NetyavinGroup |
+| Get-NetGroupMember | Get-NetyavinGroupMember |
+| Get-NetFileServer | Get-NetyavinFileServer |
+| Get-NetGPO | Get-NetyavinGPO |
+| Get-NetGPOGroup | Get-NetyavinGPOLocalGroup |
+| Get-LoggedOnLocal | Get-yavikprime |
+| Invoke-CheckLocalAdminAccess | Test-qiilura |
+| Get-SiteName | Get-orondia |
+| Get-Proxy | Get-onderon |
+| Get-LastLoggedOn | Get-mortis |
+| Get-CachedRDPConnection | Get-lothominor |
+| Get-RegistryMountedDrive | Get-kadavo |
+| Get-NetProcess | Get-Netmandalore |
+| Invoke-ThreadedFunction | Invoke-abafar |
+| Invoke-UserHunter | Invoke-yavinUserLocation |
+| Invoke-ProcessHunter | Invoke-yavinProcess |
+| Invoke-EventHunter | Invoke-yavinUserEvent |
+| Invoke-ShareFinder | Invoke-yavinShare  |
+| Invoke-FileFinder | Invoke-InterestingyavinShareFile |
+| Invoke-EnumerateLocalAdmin | Invoke-yavinLocalGroupMember |
+| Get-NetDomainTrust | Get-NetyavinTrust |
+| Get-NetForestTrust | Get-NetkesselTrust |
+| Find-ForeignUser | Find-yavinForeignUser |
+| Find-ForeignGroup | Find-yavinForeignGroupMember |
+| Invoke-MapDomainTrust | Invoke-yavinTrustMapping |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
