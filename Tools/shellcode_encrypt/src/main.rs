@@ -10,8 +10,9 @@ mod output;
 fn print_argument_help() {
     println!("Usage: shellcode_encrypt.exe <shellcode_file> <encryptionType> <key>");
     println!("Example: shellcode_encrypt.exe shellcode.txt xor 0x41");
+    println!("Example: shellcode_encrypt.exe shellcode.txt xor_multi '0x41,0x42,0x43'");
     println!("Shellcode generated with: msfvenom -p windows/messagebox -f rust");
-    println!("Encryption types: xor");
+    println!("Encryption types: xor, xor_multi");
 }
 
 
@@ -34,6 +35,10 @@ fn main() {
         "xor" => {
             let key = u8::from_str_radix(key.trim_start_matches("0x"), 16).expect("Failed to parse key");
             encrypted_bytes = xor::xor_encrypt_simple(&bytes, key).expect("Failed to encrypt bytes");
+        },
+        "xor_multi" => {
+            let key = key.as_bytes().to_vec();
+            encrypted_bytes = xor::xor_encrypt_multi(&bytes, &key).expect("Failed to encrypt bytes");
         },
         _ => {
             println!("Unknown encryption type: {}", encryption_type);
